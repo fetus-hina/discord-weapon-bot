@@ -1,0 +1,25 @@
+name: CI
+'on':
+  - pull_request
+  - push
+env:
+  LANG: C
+jobs:
+  codingStyle:
+    name: 'JS Coding Style'
+    runs-on: ubuntu-20.04
+    steps:
+      -
+        name: 'Check out the source'
+        uses: actions/checkout@v3
+      -
+        name: 'Set up node.js'
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      -
+        name: 'Install dependencies'
+        run: 'npm clean-install'
+      -
+        name: 'Run semistandard'
+        run: 'npx semistandard ''**/*.js'''
