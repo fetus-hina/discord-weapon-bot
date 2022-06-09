@@ -1,6 +1,6 @@
 {
-  "name": "@jp3cki/spl2-weapon-roulette",
-  "version": "1.0.0",
+  "name": "@jp3cki/discord-weapon-bot",
+  "version": "0.1.0",
   "license": "MIT",
   "type": "module",
   "dependencies": {
