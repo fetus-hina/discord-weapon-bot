@@ -23,3 +23,25 @@ jobs:
       -
         name: 'Run semistandard'
         run: 'npx semistandard ''**/*.js'''
+  license:
+    name: 'Check Licenses'
+    runs-on: ubuntu-20.04
+    steps:
+      -
+        name: 'Check out the source'
+        uses: actions/checkout@v3
+      -
+        name: 'Set up node.js'
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      -
+        name: 'Install dependencies'
+        run: 'npm clean-install'
+      -
+        name: 'Run license-checker'
+        run: |
+          npx license-checker-rseidelsohn \
+              --onlyAllow '0BSD;Apache-2.0;BSD-2-Clause;BSD-3-Clause;CC-BY-3.0;CC0-1.0;ISC;MIT' \
+              --production \
+              --summary
