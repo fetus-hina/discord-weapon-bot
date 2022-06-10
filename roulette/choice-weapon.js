@@ -12,17 +12,8 @@ function choiceOne (weaponList) {
 
 export default function (weapons, category) {
   if (typeof category === 'string') {
-    if (Object.getOwnPropertyNames(weapons).includes(category)) {
-      return choiceOne(weapons[category]);
-    }
-
-    console.warn('Unknown category: ' + category);
-    return null;
+    weapons = weapons.filter(v => v.type === category);
   }
 
-  const flatten = [];
-  for (const [, inCategory] of Object.entries(weapons)) {
-    inCategory.forEach(v => flatten.push(v));
-  }
-  return choiceOne(flatten);
+  return choiceOne(weapons);
 }

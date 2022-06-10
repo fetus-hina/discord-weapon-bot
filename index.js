@@ -3,6 +3,7 @@ import WEAPONS2 from './weapons/splatoon2.js';
 import choiceWeapon from './roulette/choice-weapon.js';
 import formatCategoryList from './formatters/category-list.js';
 import formatWeapon from './formatters/weapon.js';
+import getTypes from './converters/get-types.js';
 import { Client, Intents } from 'discord.js';
 import { TOKEN } from './config.js';
 
@@ -27,14 +28,14 @@ client.on('interactionCreate', async interaction => {
     case 'category1':
       await interaction.reply({
         ephemeral: true,
-        content: formatCategoryList(Object.keys(WEAPONS1))
+        content: formatCategoryList(getTypes(WEAPONS1))
       });
       break;
 
     case 'category2':
       await interaction.reply({
         ephemeral: true,
-        content: formatCategoryList(Object.keys(WEAPONS2))
+        content: formatCategoryList(getTypes(WEAPONS2))
       });
       break;
 
