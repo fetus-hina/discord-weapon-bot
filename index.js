@@ -5,16 +5,28 @@ import formatCategoryList from './formatters/category-list.js';
 import formatWeapon from './formatters/weapon.js';
 import getTypes from './converters/get-types.js';
 import { Client, Intents } from 'discord.js';
-import { TOKEN } from './config.js';
+import { GUILD_ID, TOKEN } from './config.js';
 
 const client = new Client({
   intents: [
     Intents.FLAGS.GUILDS
   ]
 });
+const emojis = {};
 
 client.once('ready', () => {
-  console.log('The bot ready.');
+  console.log('The bot ready, fetching emojis');
+
+  client.guilds.fetch(GUILD_ID)
+    .then(guild => guild.emojis.fetch())
+    .then(list => list.each(emoji => {
+      if (emoji.animated === false) {
+        emojis[emoji.name] = emoji;
+      }
+    }))
+    .then(() => console.log(`Emoji fetched, size=${Object.keys(emojis).length}`))
+    // .then(() => console.log(emojis.wakaba?.toString()))
+    .catch(console.error);
 });
 
 client.on('interactionCreate', async interaction => {
@@ -22,7 +34,8 @@ client.on('interactionCreate', async interaction => {
     return;
   }
 
-  const { commandName } = interaction;
+  const { commandName, user } = interaction;
+  console.log(`Request /${commandName} from ${user?.username}`);
 
   switch (commandName) {
     case 'category1':
@@ -46,7 +59,8 @@ client.on('interactionCreate', async interaction => {
           choiceWeapon(
             WEAPONS1,
             interaction.options.getString('category')
-          )
+          ),
+          emojis
         )
       });
       break;
@@ -58,7 +72,8 @@ client.on('interactionCreate', async interaction => {
           choiceWeapon(
             WEAPONS2,
             interaction.options.getString('category')
-          )
+          ),
+          emojis
         )
       });
       break;
