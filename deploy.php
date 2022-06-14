@@ -52,10 +52,10 @@ task('deploy:shared', function () {
 task('deploy:vendors', function () {
     within('{{release_path}}', function () {
         run('npm clean-install');
+        run('npm prune --production');
     });
 });
 
 task('deploy:restart_service', function () {
     run('sudo /usr/local/sbin/restart-discord-weapon-bot');
 });
-
