@@ -28,9 +28,11 @@ const addWeaponCategoryEnum = (option, categoryList) => {
   //    ));
   // 配列ではなく、引数にオブジェクトを連ねて渡す必要があるので
   // function.apply を使って頑張る必要がある
+
   option.addChoices.apply(
     option,
-    categoryList.map(id => ({
+    // 特別な値 "all" を先頭に追加する
+    ['all'].concat(categoryList).map(id => ({
       // name: categoryNames[id] ?? id,
       name: id,
       value: id

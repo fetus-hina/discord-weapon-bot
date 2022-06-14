@@ -11,7 +11,7 @@ function choiceOne (weaponList) {
 }
 
 export default function (weapons, category) {
-  if (typeof category === 'string') {
+  if (typeof category === 'string' && category !== 'all') {
     weapons = weapons.filter(v => v.type === category);
   }
 
