@@ -6,18 +6,18 @@ import { REST } from '@discordjs/rest';
 import { Routes } from 'discord-api-types/v9';
 import { SlashCommandBuilder } from '@discordjs/builders';
 
-const categoryNames = {
-  blaster: 'blaster - ブラスター',
-  brella: 'brella - シェルター(カサ)',
-  brush: 'brush - フデ',
-  charger: 'charger - チャージャー',
-  maneuver: 'maneuver - マニューバー',
-  reelgun: 'reelgun - リールガン',
-  roller: 'roller - ローラー',
-  shooter: 'shooter - シューター(他に該当するものを除く)',
-  slosher: 'slosher - スロッシャー(バケツ)',
-  spinner: 'spinner - スピナー'
-};
+// const categoryNames = {
+//   blaster: 'blaster - ブラスター',
+//   brella: 'brella - シェルター(カサ)',
+//   brush: 'brush - フデ',
+//   charger: 'charger - チャージャー',
+//   maneuver: 'maneuver - マニューバー',
+//   reelgun: 'reelgun - リールガン',
+//   roller: 'roller - ローラー',
+//   shooter: 'shooter - シューター(他に該当するものを除く)',
+//   slosher: 'slosher - スロッシャー(バケツ)',
+//   spinner: 'spinner - スピナー'
+// };
 
 const addWeaponCategoryEnum = (option, categoryList) => {
   // addChoices は次のように:
@@ -31,7 +31,8 @@ const addWeaponCategoryEnum = (option, categoryList) => {
   option.addChoices.apply(
     option,
     categoryList.map(id => ({
-      name: categoryNames[id] ?? id,
+      // name: categoryNames[id] ?? id,
+      name: id,
       value: id
     }))
   );
@@ -45,7 +46,7 @@ const commands =
       .setDescription('Splatoon 1 のブキルーレット')
       .addStringOption(
         opt => addWeaponCategoryEnum(
-          opt.setName('category').setDescription('ブキ種別 (`/category1` で取得)'),
+          opt.setName('category').setDescription('ブキ種別'),
           getCategoryList(WEAPON1)
         )
       ),
@@ -54,7 +55,7 @@ const commands =
       .setDescription('Splatoon 2 のブキルーレット')
       .addStringOption(
         opt => addWeaponCategoryEnum(
-          opt.setName('category').setDescription('ブキ種別 (`/category2` で取得)'),
+          opt.setName('category').setDescription('ブキ種別'),
           getCategoryList(WEAPON2)
         )
       ),
