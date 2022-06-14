@@ -1,9 +1,7 @@
 import WEAPONS1 from './weapons/splatoon1.js';
 import WEAPONS2 from './weapons/splatoon2.js';
 import choiceWeapon from './roulette/choice-weapon.js';
-import formatCategoryList from './formatters/category-list.js';
 import formatWeapon from './formatters/weapon.js';
-import getTypes from './converters/get-types.js';
 import { Client, Intents } from 'discord.js';
 import { GUILD_ID, TOKEN } from './config.js';
 
@@ -38,27 +36,15 @@ client.on('interactionCreate', async interaction => {
   console.log(`Request /${commandName} from ${user?.username}`);
 
   switch (commandName) {
-    case 'category1':
-      await interaction.reply({
-        ephemeral: true,
-        content: formatCategoryList(getTypes(WEAPONS1))
-      });
-      break;
-
-    case 'category2':
-      await interaction.reply({
-        ephemeral: true,
-        content: formatCategoryList(getTypes(WEAPONS2))
-      });
-      break;
-
     case 'weapon1':
       await interaction.reply({
         ephemeral: true,
         content: formatWeapon(
           choiceWeapon(
             WEAPONS1,
-            interaction.options.getString('category')
+            interaction.options.getString('category'),
+            interaction.options.getString('subweapon'),
+            interaction.options.getString('special')
           ),
           emojis
         )
@@ -71,7 +57,9 @@ client.on('interactionCreate', async interaction => {
         content: formatWeapon(
           choiceWeapon(
             WEAPONS2,
-            interaction.options.getString('category')
+            interaction.options.getString('category'),
+            interaction.options.getString('subweapon'),
+            interaction.options.getString('special')
           ),
           emojis
         )

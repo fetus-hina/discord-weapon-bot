@@ -1,5 +1,5 @@
 import unique from '../helpers/unique.js';
 
 export default function (weaponList) {
-  return unique(weaponList.map(v => v.type)).sort();
+  return unique(weaponList.map(weapon => weapon.special.id)).sort();
 }

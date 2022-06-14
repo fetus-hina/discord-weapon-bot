@@ -1,25 +1,14 @@
 import WEAPON1 from './weapons/splatoon1.js';
 import WEAPON2 from './weapons/splatoon2.js';
 import getCategoryList from './converters/get-types.js';
+import getSpecialList from './converters/get-specials.js';
+import getSubWeaponList from './converters/get-subweapons.js';
 import { CLIENT_ID, GUILD_ID, TOKEN } from './config.js';
 import { REST } from '@discordjs/rest';
 import { Routes } from 'discord-api-types/v9';
 import { SlashCommandBuilder } from '@discordjs/builders';
 
-// const categoryNames = {
-//   blaster: 'blaster - ブラスター',
-//   brella: 'brella - シェルター(カサ)',
-//   brush: 'brush - フデ',
-//   charger: 'charger - チャージャー',
-//   maneuver: 'maneuver - マニューバー',
-//   reelgun: 'reelgun - リールガン',
-//   roller: 'roller - ローラー',
-//   shooter: 'shooter - シューター(他に該当するものを除く)',
-//   slosher: 'slosher - スロッシャー(バケツ)',
-//   spinner: 'spinner - スピナー'
-// };
-
-const addWeaponCategoryEnum = (option, categoryList) => {
+function decorateStringOptionsEnum (option, idList) {
   // addChoices は次のように:
   //    option.addChoices(
   //      { name: 'Funny', value: 'gif_funny' },
@@ -32,14 +21,13 @@ const addWeaponCategoryEnum = (option, categoryList) => {
   option.addChoices.apply(
     option,
     // 特別な値 "all" を先頭に追加する
-    ['all'].concat(categoryList).map(id => ({
-      // name: categoryNames[id] ?? id,
+    ['all'].concat(idList).map(id => ({
       name: id,
       value: id
     }))
   );
   return option;
-};
+}
 
 const commands =
   [
@@ -47,22 +35,44 @@ const commands =
       .setName('weapon1')
       .setDescription('Splatoon 1 のブキルーレット')
       .addStringOption(
-        opt => addWeaponCategoryEnum(
+        opt => decorateStringOptionsEnum(
           opt.setName('category').setDescription('ブキ種別'),
           getCategoryList(WEAPON1)
+        )
+      )
+      .addStringOption(
+        opt => decorateStringOptionsEnum(
+          opt.setName('subweapon').setDescription('サブウェポン'),
+          getSubWeaponList(WEAPON1)
+        )
+      )
+      .addStringOption(
+        opt => decorateStringOptionsEnum(
+          opt.setName('special').setDescription('スペシャルウェポン'),
+          getSpecialList(WEAPON1)
         )
       ),
     new SlashCommandBuilder()
       .setName('weapon2')
       .setDescription('Splatoon 2 のブキルーレット')
       .addStringOption(
-        opt => addWeaponCategoryEnum(
+        opt => decorateStringOptionsEnum(
           opt.setName('category').setDescription('ブキ種別'),
           getCategoryList(WEAPON2)
         )
-      ),
-    new SlashCommandBuilder().setName('category1').setDescription('Splatoon 1 のブキ種別リスト'),
-    new SlashCommandBuilder().setName('category2').setDescription('Splatoon 2 のブキ種別リスト')
+      )
+      .addStringOption(
+        opt => decorateStringOptionsEnum(
+          opt.setName('subweapon').setDescription('サブウェポン'),
+          getSubWeaponList(WEAPON2)
+        )
+      )
+      .addStringOption(
+        opt => decorateStringOptionsEnum(
+          opt.setName('special').setDescription('スペシャルウェポン'),
+          getSpecialList(WEAPON2)
+        )
+      )
   ].map(command => command.toJSON());
 
 const rest = new REST({
