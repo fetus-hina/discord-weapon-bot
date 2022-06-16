@@ -1,12 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Deployer;
 
 require 'recipe/common.php';
 
 set('application', 'discord-weapon-bot');
 set('repository', 'git@github.com:shimiclean/discord-weapon-bot.git');
-set('git_tty', true); 
+set('git_tty', true);
 set('shared_files', []);
 set('shared_dirs', []);
 set('writable_dirs', []);

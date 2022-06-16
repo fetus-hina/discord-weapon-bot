@@ -45,3 +45,18 @@ jobs:
               --onlyAllow '0BSD;Apache-2.0;BSD-2-Clause;BSD-3-Clause;CC-BY-3.0;CC0-1.0;ISC;MIT' \
               --production \
               --summary
+  codingStylePhp:
+    name: 'PHP Coding Style (deploy script)'
+    runs-on: ubuntu-20.04
+    steps:
+      -
+        name: 'Check out the source'
+        uses: actions/checkout@v3
+      -
+        name: 'Set up PHP 8.1'
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+      -
+        name: 'Run PHPCS (PSR-12)'
+        run: './bin/phpcs -s --standard=PSR12 --extensions=php --ignore=node_modules .'
