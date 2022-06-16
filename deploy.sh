@@ -2,6 +2,8 @@
 
 set -ue
 
-git push origin master
+LATEST_VERSION=$(git tag | grep ^v | sort -nr | head -n 1)
 
-bin/dep deploy -- production
+echo "Deploying $LATEST_VERSION"
+git push origin master $LATEST_VERSION
+bin/dep deploy --tag=$LATEST_VERSION -- production
