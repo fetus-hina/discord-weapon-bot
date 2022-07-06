@@ -1,6 +1,6 @@
 {
   "name": "@jp3cki/discord-weapon-bot",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "license": "MIT",
   "type": "module",
   "engines": {
