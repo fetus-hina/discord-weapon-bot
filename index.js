@@ -37,33 +37,45 @@ client.on('interactionCreate', async interaction => {
 
   switch (commandName) {
     case 'weapon1':
-      await interaction.reply({
-        ephemeral: true,
-        content: formatWeapon(
-          choiceWeapon(
-            WEAPONS1,
-            interaction.options.getString('category'),
-            interaction.options.getString('subweapon'),
-            interaction.options.getString('special')
-          ),
-          emojis
-        )
-      });
+      {
+        const weapon = choiceWeapon(
+          WEAPONS1,
+          interaction.options.getString('category'),
+          interaction.options.getString('subweapon'),
+          interaction.options.getString('special')
+        );
+        if (weapon) {
+          console.log(`${user?.username}: ${weapon.id}`);
+        } else {
+          console.log(`${user?.username}: No weapon candidates`);
+        }
+
+        await interaction.reply({
+          ephemeral: true,
+          content: formatWeapon(weapon, emojis)
+        });
+      }
       break;
 
     case 'weapon2':
-      await interaction.reply({
-        ephemeral: true,
-        content: formatWeapon(
-          choiceWeapon(
-            WEAPONS2,
-            interaction.options.getString('category'),
-            interaction.options.getString('subweapon'),
-            interaction.options.getString('special')
-          ),
-          emojis
-        )
-      });
+      {
+        const weapon = choiceWeapon(
+          WEAPONS2,
+          interaction.options.getString('category'),
+          interaction.options.getString('subweapon'),
+          interaction.options.getString('special')
+        );
+        if (weapon) {
+          console.log(`${user?.username}: ${weapon.id}`);
+        } else {
+          console.log(`${user?.username}: No weapon candidates`);
+        }
+
+        await interaction.reply({
+          ephemeral: true,
+          content: formatWeapon(weapon, emojis)
+        });
+      }
       break;
   }
 });
