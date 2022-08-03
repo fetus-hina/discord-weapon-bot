@@ -2,12 +2,12 @@ import WEAPONS1 from './weapons/splatoon1.js';
 import WEAPONS2 from './weapons/splatoon2.js';
 import choiceWeapon from './roulette/choice-weapon.js';
 import formatWeapon from './formatters/weapon.js';
-import { Client, Intents } from 'discord.js';
+import { Client, GatewayIntentBits } from 'discord.js';
 import { GUILD_ID, TOKEN } from './config.js';
 
 const client = new Client({
   intents: [
-    Intents.FLAGS.GUILDS
+    GatewayIntentBits.Guilds
   ]
 });
 const emojis = {};
