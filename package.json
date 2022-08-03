@@ -1,10 +1,10 @@
 {
   "name": "@jp3cki/discord-weapon-bot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "type": "module",
   "engines": {
-    "node": ">= 15"
+    "node": ">= 16"
   },
   "dependencies": {
     "@discordjs/rest": "^1.0.1",
