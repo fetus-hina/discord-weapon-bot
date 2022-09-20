@@ -1,5 +1,6 @@
 import WEAPONS1 from './weapons/splatoon1.js';
 import WEAPONS2 from './weapons/splatoon2.js';
+import WEAPONS3 from './weapons/splatoon3.js';
 import choiceWeapon from './roulette/choice-weapon.js';
 import formatWeapon from './formatters/weapon.js';
 import { Client, GatewayIntentBits } from 'discord.js';
@@ -61,6 +62,27 @@ client.on('interactionCreate', async interaction => {
       {
         const weapon = choiceWeapon(
           WEAPONS2,
+          interaction.options.getString('category'),
+          interaction.options.getString('subweapon'),
+          interaction.options.getString('special')
+        );
+        if (weapon) {
+          console.log(`${user?.username}: ${weapon.id}`);
+        } else {
+          console.log(`${user?.username}: No weapon candidates`);
+        }
+
+        await interaction.reply({
+          ephemeral: true,
+          content: formatWeapon(weapon, emojis)
+        });
+      }
+      break;
+
+    case 'weapon3':
+      {
+        const weapon = choiceWeapon(
+          WEAPONS3,
           interaction.options.getString('category'),
           interaction.options.getString('subweapon'),
           interaction.options.getString('special')

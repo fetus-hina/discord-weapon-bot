@@ -1,5 +1,6 @@
 import WEAPON1 from './weapons/splatoon1.js';
 import WEAPON2 from './weapons/splatoon2.js';
+import WEAPON3 from './weapons/splatoon3.js';
 import getCategoryList from './converters/get-types.js';
 import getSpecialList from './converters/get-specials.js';
 import getSubWeaponList from './converters/get-subweapons.js';
@@ -71,6 +72,27 @@ const commands =
         opt => decorateStringOptionsEnum(
           opt.setName('special').setDescription('スペシャルウェポン'),
           getSpecialList(WEAPON2)
+        )
+      ),
+    new SlashCommandBuilder()
+      .setName('weapon3')
+      .setDescription('Splatoon 3 のブキルーレット')
+      .addStringOption(
+        opt => decorateStringOptionsEnum(
+          opt.setName('category').setDescription('ブキ種別'),
+          getCategoryList(WEAPON3)
+        )
+      )
+      .addStringOption(
+        opt => decorateStringOptionsEnum(
+          opt.setName('subweapon').setDescription('サブウェポン'),
+          getSubWeaponList(WEAPON3)
+        )
+      )
+      .addStringOption(
+        opt => decorateStringOptionsEnum(
+          opt.setName('special').setDescription('スペシャルウェポン'),
+          getSpecialList(WEAPON3)
         )
       )
   ].map(command => command.toJSON());
