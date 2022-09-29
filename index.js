@@ -53,7 +53,7 @@ client.on('interactionCreate', async interaction => {
 
         await interaction.reply({
           ephemeral: true,
-          content: formatWeapon(weapon, emojis)
+          content: formatWeapon(weapon, emojis, false)
         });
       }
       break;
@@ -74,7 +74,7 @@ client.on('interactionCreate', async interaction => {
 
         await interaction.reply({
           ephemeral: true,
-          content: formatWeapon(weapon, emojis)
+          content: formatWeapon(weapon, emojis, false)
         });
       }
       break;
@@ -95,7 +95,7 @@ client.on('interactionCreate', async interaction => {
 
         await interaction.reply({
           ephemeral: true,
-          content: formatWeapon(weapon, emojis)
+          content: formatWeapon(weapon, emojis, true)
         });
       }
       break;
