@@ -564,8 +564,8 @@ export default [
     type: 'slosher',
     name: 'バケットスロッシャー',
     sub: {
-      id: 'poisonmist',
-      name: 'ポイズンミスト'
+      id: 'splashbomb',
+      name: 'スプラッシュボム'
     },
     special: {
       id: 'tripletornado',
@@ -606,8 +606,8 @@ export default [
     type: 'slosher',
     name: 'ヒッセン',
     sub: {
-      id: 'splashbomb',
-      name: 'スプラッシュボム'
+      id: 'poisonmist',
+      name: 'ポイズンミスト'
     },
     special: {
       id: 'jetpack',
