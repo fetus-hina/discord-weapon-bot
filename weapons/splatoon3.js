@@ -410,8 +410,8 @@ export default [
     type: 'shooter',
     name: '.52ガロン',
     sub: {
-      id: 'linemarker',
-      name: 'ラインマーカー'
+      id: 'splashshield',
+      name: 'スプラッシュシールド'
     },
     special: {
       id: 'megaphone51',
