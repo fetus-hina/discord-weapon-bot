@@ -56,6 +56,20 @@ export default [
     icon: 'nova'
   },
   {
+    id: 'nova_neo',
+    type: 'blaster',
+    name: 'ノヴァブラスターネオ',
+    sub: {
+      id: 'tansanbomb',
+      name: 'タンサンボム'
+    },
+    special: {
+      id: 'ultrahanko',
+      name: 'ウルトラハンコ'
+    },
+    icon: 'nova'
+  },
+  {
     id: 'rapid',
     type: 'blaster',
     name: 'ラピッドブラスター',
@@ -154,6 +168,20 @@ export default [
     icon: 'pablo'
   },
   {
+    id: 'pablo_hue',
+    type: 'brush',
+    name: 'パブロ・ヒュー',
+    sub: {
+      id: 'trap',
+      name: 'トラップ'
+    },
+    special: {
+      id: 'ultrahanko',
+      name: 'ウルトラハンコ'
+    },
+    icon: 'pablo'
+  },
+  {
     id: 'bamboo14mk1',
     type: 'charger',
     name: '14式竹筒銃・甲',
@@ -194,6 +222,20 @@ export default [
       name: 'ホップソナー'
     },
     icon: 'liter4k_scope'
+  },
+  {
+    id: 'rpen_5h',
+    type: 'charger',
+    name: 'R-PEN/5H',
+    sub: {
+      id: 'sprinkler',
+      name: 'スプリンクラー'
+    },
+    special: {
+      id: 'energystand',
+      name: 'エナジースタンド'
+    },
+    icon: 'rpen_5h'
   },
   {
     id: 'soytuber',
@@ -322,6 +364,20 @@ export default [
     icon: 'sputtery'
   },
   {
+    id: 'sputtery_hue',
+    type: 'maneuver',
+    name: 'スパッタリー・ヒュー',
+    sub: {
+      id: 'torpedo',
+      name: 'トーピード'
+    },
+    special: {
+      id: 'sameride',
+      name: 'サメライド'
+    },
+    icon: 'sputtery'
+  },
+  {
     id: 'h3reelgun',
     type: 'reelgun',
     name: 'H3リールガン',
@@ -360,6 +416,20 @@ export default [
     special: {
       id: 'shokuwander',
       name: 'ショクワンダー'
+    },
+    icon: 'carbon'
+  },
+  {
+    id: 'carbon_deco',
+    type: 'roller',
+    name: 'カーボンローラーデコ',
+    sub: {
+      id: 'quickbomb',
+      name: 'クイックボム'
+    },
+    special: {
+      id: 'ultrashot',
+      name: 'ウルトラショット'
     },
     icon: 'carbon'
   },
@@ -404,6 +474,20 @@ export default [
       name: 'マルチミサイル'
     },
     icon: 'variableroller'
+  },
+  {
+    id: 'wideroller',
+    type: 'roller',
+    name: 'ワイドローラー',
+    sub: {
+      id: 'splashshield',
+      name: 'スプラッシュシールド'
+    },
+    special: {
+      id: 'kyuinki',
+      name: 'キューインキ'
+    },
+    icon: 'wideroller'
   },
   {
     id: '52gal',
@@ -476,6 +560,20 @@ export default [
     icon: 'jetsweeper'
   },
   {
+    id: 'momiji',
+    type: 'shooter',
+    name: 'もみじシューター',
+    sub: {
+      id: 'torpedo',
+      name: 'トーピード'
+    },
+    special: {
+      id: 'hopsonar',
+      name: 'ホップソナー'
+    },
+    icon: 'wakaba'
+  },
+  {
     id: 'nzap85',
     type: 'shooter',
     name: 'N-ZAP85',
@@ -504,6 +602,20 @@ export default [
     icon: 'prime'
   },
   {
+    id: 'prime_collabo',
+    type: 'shooter',
+    name: 'プライムシューターコラボ',
+    sub: {
+      id: 'kyubanbomb',
+      name: 'キューバンボム'
+    },
+    special: {
+      id: 'nicedama',
+      name: 'ナイスダマ'
+    },
+    icon: 'prime'
+  },
+  {
     id: 'promodeler_mg',
     type: 'shooter',
     name: 'プロモデラーMG',
@@ -514,6 +626,20 @@ export default [
     special: {
       id: 'sameride',
       name: 'サメライド'
+    },
+    icon: 'promodeler_mg'
+  },
+  {
+    id: 'promodeler_rg',
+    type: 'shooter',
+    name: 'プロモデラーRG',
+    sub: {
+      id: 'sprinkler',
+      name: 'スプリンクラー'
+    },
+    special: {
+      id: 'nicedama',
+      name: 'ナイスダマ'
     },
     icon: 'promodeler_mg'
   },
@@ -532,6 +658,20 @@ export default [
     icon: 'sharp'
   },
   {
+    id: 'spaceshooter',
+    type: 'shooter',
+    name: 'スペースシューター',
+    sub: {
+      id: 'pointsensor',
+      name: 'ポイントセンサー'
+    },
+    special: {
+      id: 'megaphone51',
+      name: 'メガホンレーザー5.1ch'
+    },
+    icon: 'spaceshooter'
+  },
+  {
     id: 'sshooter',
     type: 'shooter',
     name: 'スプラシューター',
@@ -542,6 +682,20 @@ export default [
     special: {
       id: 'ultrashot',
       name: 'ウルトラショット'
+    },
+    icon: 'sshooter'
+  },
+  {
+    id: 'sshooter_collabo',
+    type: 'shooter',
+    name: 'スプラシューターコラボ',
+    sub: {
+      id: 'splashbomb',
+      name: 'スプラッシュボム'
+    },
+    special: {
+      id: 'tripletornado',
+      name: 'トリプルトルネード'
     },
     icon: 'sshooter'
   },
@@ -570,6 +724,20 @@ export default [
     special: {
       id: 'tripletornado',
       name: 'トリプルトルネード'
+    },
+    icon: 'bucketslosher'
+  },
+  {
+    id: 'bucketslosher_deco',
+    type: 'slosher',
+    name: 'バケットスロッシャーデコ',
+    sub: {
+      id: 'linemarker',
+      name: 'ラインマーカー'
+    },
+    special: {
+      id: 'shokuwander',
+      name: 'ショクワンダー'
     },
     icon: 'bucketslosher'
   },
@@ -696,6 +864,20 @@ export default [
     special: {
       id: 'ultrahanko',
       name: 'ウルトラハンコ'
+    },
+    icon: 'splatspinner'
+  },
+  {
+    id: 'splatspinner_collabo',
+    type: 'spinner',
+    name: 'スプラスピナーコラボ',
+    sub: {
+      id: 'poisonmist',
+      name: 'ポイズンミスト'
+    },
+    special: {
+      id: 'greatbarrier',
+      name: 'グレートバリア'
     },
     icon: 'splatspinner'
   },
