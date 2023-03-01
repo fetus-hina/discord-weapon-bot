@@ -14,6 +14,20 @@ export default [
     icon: 'clashblaster'
   },
   {
+    id: 'clashblaster_neo',
+    type: 'blaster',
+    name: 'クラッシュブラスターネオ',
+    sub: {
+      id: 'curlingbomb',
+      name: 'カーリングボム'
+    },
+    special: {
+      id: 'decoy',
+      name: 'デコイチラシ'
+    },
+    icon: 'clashblaster'
+  },
+  {
     id: 'hotblaster',
     type: 'blaster',
     name: 'ホットブラスター',
@@ -80,6 +94,20 @@ export default [
     special: {
       id: 'tripletornado',
       name: 'トリプルトルネード'
+    },
+    icon: 'rapid'
+  },
+  {
+    id: 'rapid_deco',
+    type: 'blaster',
+    name: 'ラピッドブラスターデコ',
+    sub: {
+      id: 'torpedo',
+      name: 'トーピード'
+    },
+    special: {
+      id: 'jetpack',
+      name: 'ジェットパック'
     },
     icon: 'rapid'
   },
@@ -266,6 +294,20 @@ export default [
     icon: 'splatcharger'
   },
   {
+    id: 'splatcharger_collabo',
+    type: 'charger',
+    name: 'スプラチャージャーコラボ',
+    sub: {
+      id: 'splashshield',
+      name: 'スプラッシュシールド'
+    },
+    special: {
+      id: 'tripletornado',
+      name: 'トリプルトルネード'
+    },
+    icon: 'splatcharger'
+  },
+  {
     id: 'splatscope',
     type: 'charger',
     name: 'スプラスコープ',
@@ -276,6 +318,20 @@ export default [
     special: {
       id: 'kyuinki',
       name: 'キューインキ'
+    },
+    icon: 'splatscope'
+  },
+  {
+    id: 'splatscope_collabo',
+    type: 'charger',
+    name: 'スプラスコープコラボ',
+    sub: {
+      id: 'splashshield',
+      name: 'スプラッシュシールド'
+    },
+    special: {
+      id: 'tripletornado',
+      name: 'トリプルトルネード'
     },
     icon: 'splatscope'
   },
@@ -406,6 +462,20 @@ export default [
     icon: 'l3reelgun'
   },
   {
+    id: 'l3reelgun_d',
+    type: 'reelgun',
+    name: 'L3リールガンD',
+    sub: {
+      id: 'quickbomb',
+      name: 'クイックボム'
+    },
+    special: {
+      id: 'ultrahanko',
+      name: 'ウルトラハンコ'
+    },
+    icon: 'l3reelgun'
+  },
+  {
     id: 'carbon',
     type: 'roller',
     name: 'カーボンローラー',
@@ -458,6 +528,20 @@ export default [
     special: {
       id: 'greatbarrier',
       name: 'グレートバリア'
+    },
+    icon: 'splatroller'
+  },
+  {
+    id: 'splatroller_collabo',
+    type: 'roller',
+    name: 'スプラローラーコラボ',
+    sub: {
+      id: 'jumpbeacon',
+      name: 'ジャンプビーコン'
+    },
+    special: {
+      id: 'teioika',
+      name: 'テイオウイカ'
     },
     icon: 'splatroller'
   },
@@ -518,6 +602,20 @@ export default [
     icon: '96gal'
   },
   {
+    id: '96gal_deco',
+    type: 'shooter',
+    name: '.96ガロンデコ',
+    sub: {
+      id: 'splashshield',
+      name: 'スプラッシュシールド'
+    },
+    special: {
+      id: 'teioika',
+      name: 'テイオウイカ'
+    },
+    icon: '96gal'
+  },
+  {
     id: 'bold',
     type: 'shooter',
     name: 'ボールドマーカー',
@@ -528,6 +626,20 @@ export default [
     special: {
       id: 'ultrahanko',
       name: 'ウルトラハンコ'
+    },
+    icon: 'bold'
+  },
+  {
+    id: 'bold_neo',
+    type: 'shooter',
+    name: 'ボールドマーカーネオ',
+    sub: {
+      id: 'jumpbeacon',
+      name: 'ジャンプビーコン'
+    },
+    special: {
+      id: 'megaphone51',
+      name: 'メガホンレーザー5.1ch'
     },
     icon: 'bold'
   },
@@ -560,6 +672,20 @@ export default [
     icon: 'jetsweeper'
   },
   {
+    id: 'jetsweeper_custom',
+    type: 'shooter',
+    name: 'ジェットスイーパーカスタム',
+    sub: {
+      id: 'poisonmist',
+      name: 'ポイズンミスト'
+    },
+    special: {
+      id: 'amefurashi',
+      name: 'アメフラシ'
+    },
+    icon: 'jetsweeper'
+  },
+  {
     id: 'momiji',
     type: 'shooter',
     name: 'もみじシューター',
@@ -584,6 +710,20 @@ export default [
     special: {
       id: 'energystand',
       name: 'エナジースタンド'
+    },
+    icon: 'nzap85'
+  },
+  {
+    id: 'nzap89',
+    type: 'shooter',
+    name: 'N-ZAP89',
+    sub: {
+      id: 'robotbomb',
+      name: 'ロボットボム'
+    },
+    special: {
+      id: 'decoy',
+      name: 'デコイチラシ'
     },
     icon: 'nzap85'
   },
@@ -654,6 +794,20 @@ export default [
     special: {
       id: 'kanitank',
       name: 'カニタンク'
+    },
+    icon: 'sharp'
+  },
+  {
+    id: 'sharp_neo',
+    type: 'shooter',
+    name: 'シャープマーカーネオ',
+    sub: {
+      id: 'kyubanbomb',
+      name: 'キューバンボム'
+    },
+    special: {
+      id: 'tripletornado',
+      name: 'トリプルトルネード'
     },
     icon: 'sharp'
   },
@@ -780,6 +934,20 @@ export default [
     special: {
       id: 'jetpack',
       name: 'ジェットパック'
+    },
+    icon: 'hissen'
+  },
+  {
+    id: 'hissen_hue',
+    type: 'slosher',
+    name: 'ヒッセン・ヒュー',
+    sub: {
+      id: 'tansanbomb',
+      name: 'タンサンボム'
+    },
+    special: {
+      id: 'energystand',
+      name: 'エナジースタンド'
     },
     icon: 'hissen'
   },
