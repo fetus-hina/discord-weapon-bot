@@ -126,6 +126,34 @@ export default [
     icon: 'rapid_elite'
   },
   {
+    id: 'rapid_elite_deco',
+    type: 'blaster',
+    name: 'Rブラスターエリートデコ',
+    sub: {
+      id: 'linemarker',
+      name: 'ラインマーカー'
+    },
+    special: {
+      id: 'megaphone51',
+      name: 'メガホンレーザー5.1ch'
+    },
+    icon: 'rapid_elite'
+  },
+  {
+    id: 'sblast92',
+    type: 'blaster',
+    name: 'S-BLAST92',
+    sub: {
+      id: 'sprinkler',
+      name: 'スプリンクラー'
+    },
+    special: {
+      id: 'sameride',
+      name: 'サメライド'
+    },
+    icon: 'sblast92'
+  },
+  {
     id: 'campingshelter',
     type: 'brella',
     name: 'キャンピングシェルター',
@@ -136,6 +164,20 @@ export default [
     special: {
       id: 'kyuinki',
       name: 'キューインキ'
+    },
+    icon: 'campingshelter'
+  },
+  {
+    id: 'campingshelter_sorella',
+    type: 'brella',
+    name: 'キャンピングシェルターソレーラ',
+    sub: {
+      id: 'trap',
+      name: 'トラップ'
+    },
+    special: {
+      id: 'ultrashot',
+      name: 'ウルトラショット'
     },
     icon: 'campingshelter'
   },
@@ -166,6 +208,20 @@ export default [
       name: 'サメライド'
     },
     icon: 'spygadget'
+  },
+  {
+    id: 'fincent',
+    type: 'brush',
+    name: 'フィンセント',
+    sub: {
+      id: 'curlingbomb',
+      name: 'カーリングボム'
+    },
+    special: {
+      id: 'hopsonar',
+      name: 'ホップソナー'
+    },
+    icon: 'fincent'
   },
   {
     id: 'hokusai',
@@ -364,6 +420,20 @@ export default [
     icon: 'dualsweeper'
   },
   {
+    id: 'dualsweeper_custom',
+    type: 'maneuver',
+    name: 'デュアルスイーパーカスタム',
+    sub: {
+      id: 'jumpbeacon',
+      name: 'ジャンプビーコン'
+    },
+    special: {
+      id: 'decoy',
+      name: 'デコイチラシ'
+    },
+    icon: 'dualsweeper'
+  },
+  {
     id: 'kelvin525',
     type: 'maneuver',
     name: 'ケルビン525',
@@ -406,6 +476,20 @@ export default [
     icon: 'quadhopper_black'
   },
   {
+    id: 'quadhopper_white',
+    type: 'maneuver',
+    name: 'クアッドホッパーホワイト',
+    sub: {
+      id: 'sprinkler',
+      name: 'スプリンクラー'
+    },
+    special: {
+      id: 'shokuwander',
+      name: 'ショクワンダー'
+    },
+    icon: 'quadhopper_black'
+  },
+  {
     id: 'sputtery',
     type: 'maneuver',
     name: 'スパッタリー',
@@ -444,6 +528,20 @@ export default [
     special: {
       id: 'energystand',
       name: 'エナジースタンド'
+    },
+    icon: 'h3reelgun'
+  },
+  {
+    id: 'h3reelgun_d',
+    type: 'reelgun',
+    name: 'H3リールガンD',
+    sub: {
+      id: 'splashshield',
+      name: 'スプラッシュシールド'
+    },
+    special: {
+      id: 'greatbarrier',
+      name: 'グレートバリア'
     },
     icon: 'h3reelgun'
   },
@@ -570,6 +668,20 @@ export default [
     special: {
       id: 'kyuinki',
       name: 'キューインキ'
+    },
+    icon: 'wideroller'
+  },
+  {
+    id: 'wideroller_collabo',
+    type: 'roller',
+    name: 'ワイドローラーコラボ',
+    sub: {
+      id: 'linemarker',
+      name: 'ラインマーカー'
+    },
+    special: {
+      id: 'amefurashi',
+      name: 'アメフラシ'
     },
     icon: 'wideroller'
   },
@@ -826,6 +938,20 @@ export default [
     icon: 'spaceshooter'
   },
   {
+    id: 'spaceshooter_collabo',
+    type: 'shooter',
+    name: 'スペースシューターコラボ',
+    sub: {
+      id: 'trap',
+      name: 'トラップ'
+    },
+    special: {
+      id: 'jetpack',
+      name: 'ジェットパック'
+    },
+    icon: 'spaceshooter'
+  },
+  {
     id: 'sshooter',
     type: 'shooter',
     name: 'スプラシューター',
@@ -980,6 +1106,20 @@ export default [
     icon: 'barrelspinner'
   },
   {
+    id: 'barrelspinner_deco',
+    type: 'spinner',
+    name: 'バレルスピナーデコ',
+    sub: {
+      id: 'pointsensor',
+      name: 'ポイントセンサー'
+    },
+    special: {
+      id: 'teioika',
+      name: 'テイオウイカ'
+    },
+    icon: 'barrelspinner'
+  },
+  {
     id: 'hydra',
     type: 'spinner',
     name: 'ハイドラント',
@@ -1088,6 +1228,20 @@ export default [
     special: {
       id: 'ultrahanko',
       name: 'ウルトラハンコ'
+    },
+    icon: 'drivewiper'
+  },
+  {
+    id: 'drivewiper_deco',
+    type: 'wiper',
+    name: 'ドライブワイパーデコ',
+    sub: {
+      id: 'jumpbeacon',
+      name: 'ジャンプビーコン'
+    },
+    special: {
+      id: 'missile',
+      name: 'マルチミサイル'
     },
     icon: 'drivewiper'
   },
