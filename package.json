@@ -7,7 +7,7 @@
     "node": ">= 16"
   },
   "dependencies": {
-    "@discordjs/rest": "^1.7.1",
+    "@discordjs/rest": "^2.0.1",
     "discord-api-types": "^0.37.58",
     "discord.js": "^14.13.0"
   },
