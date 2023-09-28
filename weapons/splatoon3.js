@@ -196,6 +196,20 @@ export default [
     icon: 'parashelter'
   },
   {
+    id: 'parashelter_sorella',
+    type: 'brella',
+    name: 'パラシェルターソレーラ',
+    sub: {
+      id: 'robotbomb',
+      name: 'ロボットボム'
+    },
+    special: {
+      id: 'jetpack',
+      name: 'ジェットパック'
+    },
+    icon: 'parashelter'
+  },
+  {
     id: 'spygadget',
     type: 'brella',
     name: 'スパイガジェット',
@@ -234,6 +248,20 @@ export default [
     special: {
       id: 'shokuwander',
       name: 'ショクワンダー'
+    },
+    icon: 'hokusai'
+  },
+  {
+    id: 'hokusai_hue',
+    type: 'brush',
+    name: 'ホクサイ・ヒュー',
+    sub: {
+      id: 'jumpbeacon',
+      name: 'ジャンプビーコン'
+    },
+    special: {
+      id: 'amefurashi',
+      name: 'アメフラシ'
     },
     icon: 'hokusai'
   },
@@ -332,6 +360,20 @@ export default [
     special: {
       id: 'missile',
       name: 'マルチミサイル'
+    },
+    icon: 'soytuber'
+  },
+  {
+    id: 'soytuber_custom',
+    type: 'charger',
+    name: 'ソイチューバーカスタム',
+    sub: {
+      id: 'tansanbomb',
+      name: 'タンサンボム'
+    },
+    special: {
+      id: 'ultrahanko',
+      name: 'ウルトラハンコ'
     },
     icon: 'soytuber'
   },
@@ -612,6 +654,20 @@ export default [
     special: {
       id: 'energystand',
       name: 'エナジースタンド'
+    },
+    icon: 'dynamo'
+  },
+  {
+    id: 'dynamo_tesla',
+    type: 'roller',
+    name: 'ダイナモローラーテスラ',
+    sub: {
+      id: 'splashbomb',
+      name: 'スプラッシュボム'
+    },
+    special: {
+      id: 'decoy',
+      name: 'デコイチラシ'
     },
     icon: 'dynamo'
   },
@@ -1050,6 +1106,20 @@ export default [
     icon: 'furo'
   },
   {
+    id: 'furo_deco',
+    type: 'slosher',
+    name: 'オーバーフロッシャーデコ',
+    sub: {
+      id: 'linemarker',
+      name: 'ラインマーカー'
+    },
+    special: {
+      id: 'teioika',
+      name: 'テイオウイカ'
+    },
+    icon: 'furo'
+  },
+  {
     id: 'hissen',
     type: 'slosher',
     name: 'ヒッセン',
@@ -1078,6 +1148,20 @@ export default [
     icon: 'hissen'
   },
   {
+    id: 'moprin',
+    type: 'slosher',
+    name: 'モップリン',
+    sub: {
+      id: 'kyubanbomb',
+      name: 'キューバンボム'
+    },
+    special: {
+      id: 'sameride',
+      name: 'サメライド'
+    },
+    icon: 'moprin'
+  },
+  {
     id: 'screwslosher',
     type: 'slosher',
     name: 'スクリュースロッシャー',
@@ -1088,6 +1172,20 @@ export default [
     special: {
       id: 'nicedama',
       name: 'ナイスダマ'
+    },
+    icon: 'screwslosher'
+  },
+  {
+    id: 'screwslosher_neo',
+    type: 'slosher',
+    name: 'スクリュースロッシャーネオ',
+    sub: {
+      id: 'pointsensor',
+      name: 'ポイントセンサー'
+    },
+    special: {
+      id: 'ultrashot',
+      name: 'ウルトラショット'
     },
     icon: 'screwslosher'
   },
@@ -1120,6 +1218,20 @@ export default [
     icon: 'barrelspinner'
   },
   {
+    id: 'examiner',
+    type: 'spinner',
+    name: 'イグザミナー',
+    sub: {
+      id: 'curlingbomb',
+      name: 'カーリングボム'
+    },
+    special: {
+      id: 'energystand',
+      name: 'エナジースタンド'
+    },
+    icon: 'examiner'
+  },
+  {
     id: 'hydra',
     type: 'spinner',
     name: 'ハイドラント',
@@ -1146,6 +1258,20 @@ export default [
       name: 'ジェットパック'
     },
     icon: 'kugelschreiber'
+  },
+  {
+    id: 'kugelschreiber_hue',
+    type: 'spinner',
+    name: 'クーゲルシュライバー・ヒュー',
+    sub: {
+      id: 'trap',
+      name: 'トラップ'
+    },
+    special: {
+      id: 'kyuinki',
+      name: 'キューインキ'
+    },
+    icon: 'kugelschreiber_hue'
   },
   {
     id: 'nautilus47',
@@ -1214,6 +1340,20 @@ export default [
     special: {
       id: 'megaphone51',
       name: 'メガホンレーザー5.1ch'
+    },
+    icon: 'tristringer'
+  },
+  {
+    id: 'tristringer_collabo',
+    type: 'stringer',
+    name: 'トライストリンガーコラボ',
+    sub: {
+      id: 'sprinkler',
+      name: 'スプリンクラー'
+    },
+    special: {
+      id: 'decoy',
+      name: 'デコイチラシ'
     },
     icon: 'tristringer'
   },
