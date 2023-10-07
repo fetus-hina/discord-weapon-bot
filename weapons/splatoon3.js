@@ -4,1399 +4,1399 @@ export default [
     type: 'blaster',
     name: 'クラッシュブラスター',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'ultrashot',
+      id: 'sp_ultrashot',
       name: 'ウルトラショット'
     },
-    icon: 'clashblaster'
+    icon: 'w_clashblaster'
   },
   {
     id: 'clashblaster_neo',
     type: 'blaster',
     name: 'クラッシュブラスターネオ',
     sub: {
-      id: 'curlingbomb',
+      id: 'sub_curlingbomb',
       name: 'カーリングボム'
     },
     special: {
-      id: 'decoy',
+      id: 'sp_decoy',
       name: 'デコイチラシ'
     },
-    icon: 'clashblaster'
+    icon: 'w_clashblaster'
   },
   {
     id: 'hotblaster',
     type: 'blaster',
     name: 'ホットブラスター',
     sub: {
-      id: 'robotbomb',
+      id: 'sub_robotbomb',
       name: 'ロボットボム'
     },
     special: {
-      id: 'greatbarrier',
+      id: 'sp_greatbarrier',
       name: 'グレートバリア'
     },
-    icon: 'hotblaster'
+    icon: 'w_hotblaster'
   },
   {
     id: 'longblaster',
     type: 'blaster',
     name: 'ロングブラスター',
     sub: {
-      id: 'kyubanbomb',
+      id: 'sub_kyubanbomb',
       name: 'キューバンボム'
     },
     special: {
-      id: 'hopsonar',
+      id: 'sp_hopsonar',
       name: 'ホップソナー'
     },
-    icon: 'longblaster'
+    icon: 'w_longblaster'
   },
   {
     id: 'nova',
     type: 'blaster',
     name: 'ノヴァブラスター',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'shokuwander',
+      id: 'sp_shokuwander',
       name: 'ショクワンダー'
     },
-    icon: 'nova'
+    icon: 'w_nova'
   },
   {
     id: 'nova_neo',
     type: 'blaster',
     name: 'ノヴァブラスターネオ',
     sub: {
-      id: 'tansanbomb',
+      id: 'sub_tansanbomb',
       name: 'タンサンボム'
     },
     special: {
-      id: 'ultrahanko',
+      id: 'sp_ultrahanko',
       name: 'ウルトラハンコ'
     },
-    icon: 'nova'
+    icon: 'w_nova'
   },
   {
     id: 'rapid',
     type: 'blaster',
     name: 'ラピッドブラスター',
     sub: {
-      id: 'trap',
+      id: 'sub_trap',
       name: 'トラップ'
     },
     special: {
-      id: 'tripletornado',
+      id: 'sp_tripletornado',
       name: 'トリプルトルネード'
     },
-    icon: 'rapid'
+    icon: 'w_rapid'
   },
   {
     id: 'rapid_deco',
     type: 'blaster',
     name: 'ラピッドブラスターデコ',
     sub: {
-      id: 'torpedo',
+      id: 'sub_torpedo',
       name: 'トーピード'
     },
     special: {
-      id: 'jetpack',
+      id: 'sp_jetpack',
       name: 'ジェットパック'
     },
-    icon: 'rapid'
+    icon: 'w_rapid'
   },
   {
     id: 'rapid_elite',
     type: 'blaster',
     name: 'Rブラスターエリート',
     sub: {
-      id: 'poisonmist',
+      id: 'sub_poisonmist',
       name: 'ポイズンミスト'
     },
     special: {
-      id: 'kyuinki',
+      id: 'sp_kyuinki',
       name: 'キューインキ'
     },
-    icon: 'rapid_elite'
+    icon: 'w_rapid_elite'
   },
   {
     id: 'rapid_elite_deco',
     type: 'blaster',
     name: 'Rブラスターエリートデコ',
     sub: {
-      id: 'linemarker',
+      id: 'sub_linemarker',
       name: 'ラインマーカー'
     },
     special: {
-      id: 'megaphone51',
+      id: 'sp_megaphone51',
       name: 'メガホンレーザー5.1ch'
     },
-    icon: 'rapid_elite'
+    icon: 'w_rapid_elite'
   },
   {
     id: 'sblast92',
     type: 'blaster',
     name: 'S-BLAST92',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'sameride',
+      id: 'sp_sameride',
       name: 'サメライド'
     },
-    icon: 'sblast92'
+    icon: 'w_sblast92'
   },
   {
     id: 'campingshelter',
     type: 'brella',
     name: 'キャンピングシェルター',
     sub: {
-      id: 'jumpbeacon',
+      id: 'sub_jumpbeacon',
       name: 'ジャンプビーコン'
     },
     special: {
-      id: 'kyuinki',
+      id: 'sp_kyuinki',
       name: 'キューインキ'
     },
-    icon: 'campingshelter'
+    icon: 'w_campingshelter'
   },
   {
     id: 'campingshelter_sorella',
     type: 'brella',
     name: 'キャンピングシェルターソレーラ',
     sub: {
-      id: 'trap',
+      id: 'sub_trap',
       name: 'トラップ'
     },
     special: {
-      id: 'ultrashot',
+      id: 'sp_ultrashot',
       name: 'ウルトラショット'
     },
-    icon: 'campingshelter'
+    icon: 'w_campingshelter'
   },
   {
     id: 'parashelter',
     type: 'brella',
     name: 'パラシェルター',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'tripletornado',
+      id: 'sp_tripletornado',
       name: 'トリプルトルネード'
     },
-    icon: 'parashelter'
+    icon: 'w_parashelter'
   },
   {
     id: 'parashelter_sorella',
     type: 'brella',
     name: 'パラシェルターソレーラ',
     sub: {
-      id: 'robotbomb',
+      id: 'sub_robotbomb',
       name: 'ロボットボム'
     },
     special: {
-      id: 'jetpack',
+      id: 'sp_jetpack',
       name: 'ジェットパック'
     },
-    icon: 'parashelter'
+    icon: 'w_parashelter'
   },
   {
     id: 'spygadget',
     type: 'brella',
     name: 'スパイガジェット',
     sub: {
-      id: 'trap',
+      id: 'sub_trap',
       name: 'トラップ'
     },
     special: {
-      id: 'sameride',
+      id: 'sp_sameride',
       name: 'サメライド'
     },
-    icon: 'spygadget'
+    icon: 'w_spygadget'
   },
   {
     id: 'fincent',
     type: 'brush',
     name: 'フィンセント',
     sub: {
-      id: 'curlingbomb',
+      id: 'sub_curlingbomb',
       name: 'カーリングボム'
     },
     special: {
-      id: 'hopsonar',
+      id: 'sp_hopsonar',
       name: 'ホップソナー'
     },
-    icon: 'fincent'
+    icon: 'w_fincent'
   },
   {
     id: 'hokusai',
     type: 'brush',
     name: 'ホクサイ',
     sub: {
-      id: 'kyubanbomb',
+      id: 'sub_kyubanbomb',
       name: 'キューバンボム'
     },
     special: {
-      id: 'shokuwander',
+      id: 'sp_shokuwander',
       name: 'ショクワンダー'
     },
-    icon: 'hokusai'
+    icon: 'w_hokusai'
   },
   {
     id: 'hokusai_hue',
     type: 'brush',
     name: 'ホクサイ・ヒュー',
     sub: {
-      id: 'jumpbeacon',
+      id: 'sub_jumpbeacon',
       name: 'ジャンプビーコン'
     },
     special: {
-      id: 'amefurashi',
+      id: 'sp_amefurashi',
       name: 'アメフラシ'
     },
-    icon: 'hokusai'
+    icon: 'w_hokusai'
   },
   {
     id: 'pablo',
     type: 'brush',
     name: 'パブロ',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'megaphone51',
+      id: 'sp_megaphone51',
       name: 'メガホンレーザー5.1ch'
     },
-    icon: 'pablo'
+    icon: 'w_pablo'
   },
   {
     id: 'pablo_hue',
     type: 'brush',
     name: 'パブロ・ヒュー',
     sub: {
-      id: 'trap',
+      id: 'sub_trap',
       name: 'トラップ'
     },
     special: {
-      id: 'ultrahanko',
+      id: 'sp_ultrahanko',
       name: 'ウルトラハンコ'
     },
-    icon: 'pablo'
+    icon: 'w_pablo'
   },
   {
     id: 'bamboo14mk1',
     type: 'charger',
     name: '14式竹筒銃・甲',
     sub: {
-      id: 'robotbomb',
+      id: 'sub_robotbomb',
       name: 'ロボットボム'
     },
     special: {
-      id: 'megaphone51',
+      id: 'sp_megaphone51',
       name: 'メガホンレーザー5.1ch'
     },
-    icon: 'bamboo14mk1'
+    icon: 'w_bamboo14mk1'
   },
   {
     id: 'liter4k',
     type: 'charger',
     name: 'リッター4K',
     sub: {
-      id: 'trap',
+      id: 'sub_trap',
       name: 'トラップ'
     },
     special: {
-      id: 'hopsonar',
+      id: 'sp_hopsonar',
       name: 'ホップソナー'
     },
-    icon: 'liter4k'
+    icon: 'w_liter4k'
   },
   {
     id: 'liter4k_scope',
     type: 'charger',
     name: '4Kスコープ',
     sub: {
-      id: 'trap',
+      id: 'sub_trap',
       name: 'トラップ'
     },
     special: {
-      id: 'hopsonar',
+      id: 'sp_hopsonar',
       name: 'ホップソナー'
     },
-    icon: 'liter4k_scope'
+    icon: 'w_liter4k_scope'
   },
   {
     id: 'rpen_5h',
     type: 'charger',
     name: 'R-PEN/5H',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'energystand',
+      id: 'sp_energystand',
       name: 'エナジースタンド'
     },
-    icon: 'rpen_5h'
+    icon: 'w_rpen_5h'
   },
   {
     id: 'soytuber',
     type: 'charger',
     name: 'ソイチューバー',
     sub: {
-      id: 'torpedo',
+      id: 'sub_torpedo',
       name: 'トーピード'
     },
     special: {
-      id: 'missile',
+      id: 'sp_missile',
       name: 'マルチミサイル'
     },
-    icon: 'soytuber'
+    icon: 'w_soytuber'
   },
   {
     id: 'soytuber_custom',
     type: 'charger',
     name: 'ソイチューバーカスタム',
     sub: {
-      id: 'tansanbomb',
+      id: 'sub_tansanbomb',
       name: 'タンサンボム'
     },
     special: {
-      id: 'ultrahanko',
+      id: 'sp_ultrahanko',
       name: 'ウルトラハンコ'
     },
-    icon: 'soytuber'
+    icon: 'w_soytuber'
   },
   {
     id: 'splatcharger',
     type: 'charger',
     name: 'スプラチャージャー',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'kyuinki',
+      id: 'sp_kyuinki',
       name: 'キューインキ'
     },
-    icon: 'splatcharger'
+    icon: 'w_splatcharger'
   },
   {
     id: 'splatcharger_collabo',
     type: 'charger',
     name: 'スプラチャージャーコラボ',
     sub: {
-      id: 'splashshield',
+      id: 'sub_splashshield',
       name: 'スプラッシュシールド'
     },
     special: {
-      id: 'tripletornado',
+      id: 'sp_tripletornado',
       name: 'トリプルトルネード'
     },
-    icon: 'splatcharger'
+    icon: 'w_splatcharger'
   },
   {
     id: 'splatscope',
     type: 'charger',
     name: 'スプラスコープ',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'kyuinki',
+      id: 'sp_kyuinki',
       name: 'キューインキ'
     },
-    icon: 'splatscope'
+    icon: 'w_splatscope'
   },
   {
     id: 'splatscope_collabo',
     type: 'charger',
     name: 'スプラスコープコラボ',
     sub: {
-      id: 'splashshield',
+      id: 'sub_splashshield',
       name: 'スプラッシュシールド'
     },
     special: {
-      id: 'tripletornado',
+      id: 'sp_tripletornado',
       name: 'トリプルトルネード'
     },
-    icon: 'splatscope'
+    icon: 'w_splatscope'
   },
   {
     id: 'squiclean_a',
     type: 'charger',
     name: 'スクイックリンα',
     sub: {
-      id: 'pointsensor',
+      id: 'sub_pointsensor',
       name: 'ポイントセンサー'
     },
     special: {
-      id: 'greatbarrier',
+      id: 'sp_greatbarrier',
       name: 'グレートバリア'
     },
-    icon: 'squiclean_a'
+    icon: 'w_squiclean_a'
   },
   {
     id: 'dualsweeper',
     type: 'maneuver',
     name: 'デュアルスイーパー',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'hopsonar',
+      id: 'sp_hopsonar',
       name: 'ホップソナー'
     },
-    icon: 'dualsweeper'
+    icon: 'w_dualsweeper'
   },
   {
     id: 'dualsweeper_custom',
     type: 'maneuver',
     name: 'デュアルスイーパーカスタム',
     sub: {
-      id: 'jumpbeacon',
+      id: 'sub_jumpbeacon',
       name: 'ジャンプビーコン'
     },
     special: {
-      id: 'decoy',
+      id: 'sp_decoy',
       name: 'デコイチラシ'
     },
-    icon: 'dualsweeper'
+    icon: 'w_dualsweeper'
   },
   {
     id: 'kelvin525',
     type: 'maneuver',
     name: 'ケルビン525',
     sub: {
-      id: 'splashshield',
+      id: 'sub_splashshield',
       name: 'スプラッシュシールド'
     },
     special: {
-      id: 'nicedama',
+      id: 'sp_nicedama',
       name: 'ナイスダマ'
     },
-    icon: 'kelvin525'
+    icon: 'w_kelvin525'
   },
   {
     id: 'maneuver',
     type: 'maneuver',
     name: 'スプラマニューバー',
     sub: {
-      id: 'kyubanbomb',
+      id: 'sub_kyubanbomb',
       name: 'キューバンボム'
     },
     special: {
-      id: 'kanitank',
+      id: 'sp_kanitank',
       name: 'カニタンク'
     },
-    icon: 'maneuver'
+    icon: 'w_maneuver'
   },
   {
     id: 'quadhopper_black',
     type: 'maneuver',
     name: 'クアッドホッパーブラック',
     sub: {
-      id: 'robotbomb',
+      id: 'sub_robotbomb',
       name: 'ロボットボム'
     },
     special: {
-      id: 'sameride',
+      id: 'sp_sameride',
       name: 'サメライド'
     },
-    icon: 'quadhopper_black'
+    icon: 'w_quadhopper_black'
   },
   {
     id: 'quadhopper_white',
     type: 'maneuver',
     name: 'クアッドホッパーホワイト',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'shokuwander',
+      id: 'sp_shokuwander',
       name: 'ショクワンダー'
     },
-    icon: 'quadhopper_black'
+    icon: 'w_quadhopper_black'
   },
   {
     id: 'sputtery',
     type: 'maneuver',
     name: 'スパッタリー',
     sub: {
-      id: 'jumpbeacon',
+      id: 'sub_jumpbeacon',
       name: 'ジャンプビーコン'
     },
     special: {
-      id: 'energystand',
+      id: 'sp_energystand',
       name: 'エナジースタンド'
     },
-    icon: 'sputtery'
+    icon: 'w_sputtery'
   },
   {
     id: 'sputtery_hue',
     type: 'maneuver',
     name: 'スパッタリー・ヒュー',
     sub: {
-      id: 'torpedo',
+      id: 'sub_torpedo',
       name: 'トーピード'
     },
     special: {
-      id: 'sameride',
+      id: 'sp_sameride',
       name: 'サメライド'
     },
-    icon: 'sputtery'
+    icon: 'w_sputtery'
   },
   {
     id: 'h3reelgun',
     type: 'reelgun',
     name: 'H3リールガン',
     sub: {
-      id: 'pointsensor',
+      id: 'sub_pointsensor',
       name: 'ポイントセンサー'
     },
     special: {
-      id: 'energystand',
+      id: 'sp_energystand',
       name: 'エナジースタンド'
     },
-    icon: 'h3reelgun'
+    icon: 'w_h3reelgun'
   },
   {
     id: 'h3reelgun_d',
     type: 'reelgun',
     name: 'H3リールガンD',
     sub: {
-      id: 'splashshield',
+      id: 'sub_splashshield',
       name: 'スプラッシュシールド'
     },
     special: {
-      id: 'greatbarrier',
+      id: 'sp_greatbarrier',
       name: 'グレートバリア'
     },
-    icon: 'h3reelgun'
+    icon: 'w_h3reelgun'
   },
   {
     id: 'l3reelgun',
     type: 'reelgun',
     name: 'L3リールガン',
     sub: {
-      id: 'curlingbomb',
+      id: 'sub_curlingbomb',
       name: 'カーリングボム'
     },
     special: {
-      id: 'kanitank',
+      id: 'sp_kanitank',
       name: 'カニタンク'
     },
-    icon: 'l3reelgun'
+    icon: 'w_l3reelgun'
   },
   {
     id: 'l3reelgun_d',
     type: 'reelgun',
     name: 'L3リールガンD',
     sub: {
-      id: 'quickbomb',
+      id: 'sub_quickbomb',
       name: 'クイックボム'
     },
     special: {
-      id: 'ultrahanko',
+      id: 'sp_ultrahanko',
       name: 'ウルトラハンコ'
     },
-    icon: 'l3reelgun'
+    icon: 'w_l3reelgun'
   },
   {
     id: 'carbon',
     type: 'roller',
     name: 'カーボンローラー',
     sub: {
-      id: 'robotbomb',
+      id: 'sub_robotbomb',
       name: 'ロボットボム'
     },
     special: {
-      id: 'shokuwander',
+      id: 'sp_shokuwander',
       name: 'ショクワンダー'
     },
-    icon: 'carbon'
+    icon: 'w_carbon'
   },
   {
     id: 'carbon_deco',
     type: 'roller',
     name: 'カーボンローラーデコ',
     sub: {
-      id: 'quickbomb',
+      id: 'sub_quickbomb',
       name: 'クイックボム'
     },
     special: {
-      id: 'ultrashot',
+      id: 'sp_ultrashot',
       name: 'ウルトラショット'
     },
-    icon: 'carbon'
+    icon: 'w_carbon'
   },
   {
     id: 'dynamo',
     type: 'roller',
     name: 'ダイナモローラー',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'energystand',
+      id: 'sp_energystand',
       name: 'エナジースタンド'
     },
-    icon: 'dynamo'
+    icon: 'w_dynamo'
   },
   {
     id: 'dynamo_tesla',
     type: 'roller',
     name: 'ダイナモローラーテスラ',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'decoy',
+      id: 'sp_decoy',
       name: 'デコイチラシ'
     },
-    icon: 'dynamo'
+    icon: 'w_dynamo'
   },
   {
     id: 'splatroller',
     type: 'roller',
     name: 'スプラローラー',
     sub: {
-      id: 'curlingbomb',
+      id: 'sub_curlingbomb',
       name: 'カーリングボム'
     },
     special: {
-      id: 'greatbarrier',
+      id: 'sp_greatbarrier',
       name: 'グレートバリア'
     },
-    icon: 'splatroller'
+    icon: 'w_splatroller'
   },
   {
     id: 'splatroller_collabo',
     type: 'roller',
     name: 'スプラローラーコラボ',
     sub: {
-      id: 'jumpbeacon',
+      id: 'sub_jumpbeacon',
       name: 'ジャンプビーコン'
     },
     special: {
-      id: 'teioika',
+      id: 'sp_teioika',
       name: 'テイオウイカ'
     },
-    icon: 'splatroller'
+    icon: 'w_splatroller'
   },
   {
     id: 'variableroller',
     type: 'roller',
     name: 'ヴァリアブルローラー',
     sub: {
-      id: 'trap',
+      id: 'sub_trap',
       name: 'トラップ'
     },
     special: {
-      id: 'missile',
+      id: 'sp_missile',
       name: 'マルチミサイル'
     },
-    icon: 'variableroller'
+    icon: 'w_variableroller'
   },
   {
     id: 'wideroller',
     type: 'roller',
     name: 'ワイドローラー',
     sub: {
-      id: 'splashshield',
+      id: 'sub_splashshield',
       name: 'スプラッシュシールド'
     },
     special: {
-      id: 'kyuinki',
+      id: 'sp_kyuinki',
       name: 'キューインキ'
     },
-    icon: 'wideroller'
+    icon: 'w_wideroller'
   },
   {
     id: 'wideroller_collabo',
     type: 'roller',
     name: 'ワイドローラーコラボ',
     sub: {
-      id: 'linemarker',
+      id: 'sub_linemarker',
       name: 'ラインマーカー'
     },
     special: {
-      id: 'amefurashi',
+      id: 'sp_amefurashi',
       name: 'アメフラシ'
     },
-    icon: 'wideroller'
+    icon: 'w_wideroller'
   },
   {
     id: '52gal',
     type: 'shooter',
     name: '.52ガロン',
     sub: {
-      id: 'splashshield',
+      id: 'sub_splashshield',
       name: 'スプラッシュシールド'
     },
     special: {
-      id: 'megaphone51',
+      id: 'sp_megaphone51',
       name: 'メガホンレーザー5.1ch'
     },
-    icon: '52gal'
+    icon: 'w_52gal'
   },
   {
     id: '96gal',
     type: 'shooter',
     name: '.96ガロン',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'kyuinki',
+      id: 'sp_kyuinki',
       name: 'キューインキ'
     },
-    icon: '96gal'
+    icon: 'w_96gal'
   },
   {
     id: '96gal_deco',
     type: 'shooter',
     name: '.96ガロンデコ',
     sub: {
-      id: 'splashshield',
+      id: 'sub_splashshield',
       name: 'スプラッシュシールド'
     },
     special: {
-      id: 'teioika',
+      id: 'sp_teioika',
       name: 'テイオウイカ'
     },
-    icon: '96gal'
+    icon: 'w_96gal'
   },
   {
     id: 'bold',
     type: 'shooter',
     name: 'ボールドマーカー',
     sub: {
-      id: 'curlingbomb',
+      id: 'sub_curlingbomb',
       name: 'カーリングボム'
     },
     special: {
-      id: 'ultrahanko',
+      id: 'sp_ultrahanko',
       name: 'ウルトラハンコ'
     },
-    icon: 'bold'
+    icon: 'w_bold'
   },
   {
     id: 'bold_neo',
     type: 'shooter',
     name: 'ボールドマーカーネオ',
     sub: {
-      id: 'jumpbeacon',
+      id: 'sub_jumpbeacon',
       name: 'ジャンプビーコン'
     },
     special: {
-      id: 'megaphone51',
+      id: 'sp_megaphone51',
       name: 'メガホンレーザー5.1ch'
     },
-    icon: 'bold'
+    icon: 'w_bold'
   },
   {
     id: 'bottlegeyser',
     type: 'shooter',
     name: 'ボトルガイザー',
     sub: {
-      id: 'splashshield',
+      id: 'sub_splashshield',
       name: 'スプラッシュシールド'
     },
     special: {
-      id: 'ultrashot',
+      id: 'sp_ultrashot',
       name: 'ウルトラショット'
     },
-    icon: 'bottlegeyser'
+    icon: 'w_bottlegeyser'
   },
   {
     id: 'jetsweeper',
     type: 'shooter',
     name: 'ジェットスイーパー',
     sub: {
-      id: 'linemarker',
+      id: 'sub_linemarker',
       name: 'ラインマーカー'
     },
     special: {
-      id: 'kyuinki',
+      id: 'sp_kyuinki',
       name: 'キューインキ'
     },
-    icon: 'jetsweeper'
+    icon: 'w_jetsweeper'
   },
   {
     id: 'jetsweeper_custom',
     type: 'shooter',
     name: 'ジェットスイーパーカスタム',
     sub: {
-      id: 'poisonmist',
+      id: 'sub_poisonmist',
       name: 'ポイズンミスト'
     },
     special: {
-      id: 'amefurashi',
+      id: 'sp_amefurashi',
       name: 'アメフラシ'
     },
-    icon: 'jetsweeper'
+    icon: 'w_jetsweeper'
   },
   {
     id: 'momiji',
     type: 'shooter',
     name: 'もみじシューター',
     sub: {
-      id: 'torpedo',
+      id: 'sub_torpedo',
       name: 'トーピード'
     },
     special: {
-      id: 'hopsonar',
+      id: 'sp_hopsonar',
       name: 'ホップソナー'
     },
-    icon: 'wakaba'
+    icon: 'w_wakaba'
   },
   {
     id: 'nzap85',
     type: 'shooter',
     name: 'N-ZAP85',
     sub: {
-      id: 'kyubanbomb',
+      id: 'sub_kyubanbomb',
       name: 'キューバンボム'
     },
     special: {
-      id: 'energystand',
+      id: 'sp_energystand',
       name: 'エナジースタンド'
     },
-    icon: 'nzap85'
+    icon: 'w_nzap85'
   },
   {
     id: 'nzap89',
     type: 'shooter',
     name: 'N-ZAP89',
     sub: {
-      id: 'robotbomb',
+      id: 'sub_robotbomb',
       name: 'ロボットボム'
     },
     special: {
-      id: 'decoy',
+      id: 'sp_decoy',
       name: 'デコイチラシ'
     },
-    icon: 'nzap85'
+    icon: 'w_nzap85'
   },
   {
     id: 'prime',
     type: 'shooter',
     name: 'プライムシューター',
     sub: {
-      id: 'linemarker',
+      id: 'sub_linemarker',
       name: 'ラインマーカー'
     },
     special: {
-      id: 'kanitank',
+      id: 'sp_kanitank',
       name: 'カニタンク'
     },
-    icon: 'prime'
+    icon: 'w_prime'
   },
   {
     id: 'prime_collabo',
     type: 'shooter',
     name: 'プライムシューターコラボ',
     sub: {
-      id: 'kyubanbomb',
+      id: 'sub_kyubanbomb',
       name: 'キューバンボム'
     },
     special: {
-      id: 'nicedama',
+      id: 'sp_nicedama',
       name: 'ナイスダマ'
     },
-    icon: 'prime'
+    icon: 'w_prime'
   },
   {
     id: 'promodeler_mg',
     type: 'shooter',
     name: 'プロモデラーMG',
     sub: {
-      id: 'tansanbomb',
+      id: 'sub_tansanbomb',
       name: 'タンサンボム'
     },
     special: {
-      id: 'sameride',
+      id: 'sp_sameride',
       name: 'サメライド'
     },
-    icon: 'promodeler_mg'
+    icon: 'w_promodeler_mg'
   },
   {
     id: 'promodeler_rg',
     type: 'shooter',
     name: 'プロモデラーRG',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'nicedama',
+      id: 'sp_nicedama',
       name: 'ナイスダマ'
     },
-    icon: 'promodeler_mg'
+    icon: 'w_promodeler_mg'
   },
   {
     id: 'sharp',
     type: 'shooter',
     name: 'シャープマーカー',
     sub: {
-      id: 'quickbomb',
+      id: 'sub_quickbomb',
       name: 'クイックボム'
     },
     special: {
-      id: 'kanitank',
+      id: 'sp_kanitank',
       name: 'カニタンク'
     },
-    icon: 'sharp'
+    icon: 'w_sharp'
   },
   {
     id: 'sharp_neo',
     type: 'shooter',
     name: 'シャープマーカーネオ',
     sub: {
-      id: 'kyubanbomb',
+      id: 'sub_kyubanbomb',
       name: 'キューバンボム'
     },
     special: {
-      id: 'tripletornado',
+      id: 'sp_tripletornado',
       name: 'トリプルトルネード'
     },
-    icon: 'sharp'
+    icon: 'w_sharp'
   },
   {
     id: 'spaceshooter',
     type: 'shooter',
     name: 'スペースシューター',
     sub: {
-      id: 'pointsensor',
+      id: 'sub_pointsensor',
       name: 'ポイントセンサー'
     },
     special: {
-      id: 'megaphone51',
+      id: 'sp_megaphone51',
       name: 'メガホンレーザー5.1ch'
     },
-    icon: 'spaceshooter'
+    icon: 'w_spaceshooter'
   },
   {
     id: 'spaceshooter_collabo',
     type: 'shooter',
     name: 'スペースシューターコラボ',
     sub: {
-      id: 'trap',
+      id: 'sub_trap',
       name: 'トラップ'
     },
     special: {
-      id: 'jetpack',
+      id: 'sp_jetpack',
       name: 'ジェットパック'
     },
-    icon: 'spaceshooter'
+    icon: 'w_spaceshooter'
   },
   {
     id: 'sshooter',
     type: 'shooter',
     name: 'スプラシューター',
     sub: {
-      id: 'kyubanbomb',
+      id: 'sub_kyubanbomb',
       name: 'キューバンボム'
     },
     special: {
-      id: 'ultrashot',
+      id: 'sp_ultrashot',
       name: 'ウルトラショット'
     },
-    icon: 'sshooter'
+    icon: 'w_sshooter'
   },
   {
     id: 'sshooter_collabo',
     type: 'shooter',
     name: 'スプラシューターコラボ',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'tripletornado',
+      id: 'sp_tripletornado',
       name: 'トリプルトルネード'
     },
-    icon: 'sshooter'
+    icon: 'w_sshooter'
   },
   {
     id: 'wakaba',
     type: 'shooter',
     name: 'わかばシューター',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'greatbarrier',
+      id: 'sp_greatbarrier',
       name: 'グレートバリア'
     },
-    icon: 'wakaba'
+    icon: 'w_wakaba'
   },
   {
     id: 'bucketslosher',
     type: 'slosher',
     name: 'バケットスロッシャー',
     sub: {
-      id: 'splashbomb',
+      id: 'sub_splashbomb',
       name: 'スプラッシュボム'
     },
     special: {
-      id: 'tripletornado',
+      id: 'sp_tripletornado',
       name: 'トリプルトルネード'
     },
-    icon: 'bucketslosher'
+    icon: 'w_bucketslosher'
   },
   {
     id: 'bucketslosher_deco',
     type: 'slosher',
     name: 'バケットスロッシャーデコ',
     sub: {
-      id: 'linemarker',
+      id: 'sub_linemarker',
       name: 'ラインマーカー'
     },
     special: {
-      id: 'shokuwander',
+      id: 'sp_shokuwander',
       name: 'ショクワンダー'
     },
-    icon: 'bucketslosher'
+    icon: 'w_bucketslosher'
   },
   {
     id: 'explosher',
     type: 'slosher',
     name: 'エクスプロッシャー',
     sub: {
-      id: 'pointsensor',
+      id: 'sub_pointsensor',
       name: 'ポイントセンサー'
     },
     special: {
-      id: 'amefurashi',
+      id: 'sp_amefurashi',
       name: 'アメフラシ'
     },
-    icon: 'explosher'
+    icon: 'w_explosher'
   },
   {
     id: 'furo',
     type: 'slosher',
     name: 'オーバーフロッシャー',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'amefurashi',
+      id: 'sp_amefurashi',
       name: 'アメフラシ'
     },
-    icon: 'furo'
+    icon: 'w_furo'
   },
   {
     id: 'furo_deco',
     type: 'slosher',
     name: 'オーバーフロッシャーデコ',
     sub: {
-      id: 'linemarker',
+      id: 'sub_linemarker',
       name: 'ラインマーカー'
     },
     special: {
-      id: 'teioika',
+      id: 'sp_teioika',
       name: 'テイオウイカ'
     },
-    icon: 'furo'
+    icon: 'w_furo'
   },
   {
     id: 'hissen',
     type: 'slosher',
     name: 'ヒッセン',
     sub: {
-      id: 'poisonmist',
+      id: 'sub_poisonmist',
       name: 'ポイズンミスト'
     },
     special: {
-      id: 'jetpack',
+      id: 'sp_jetpack',
       name: 'ジェットパック'
     },
-    icon: 'hissen'
+    icon: 'w_hissen'
   },
   {
     id: 'hissen_hue',
     type: 'slosher',
     name: 'ヒッセン・ヒュー',
     sub: {
-      id: 'tansanbomb',
+      id: 'sub_tansanbomb',
       name: 'タンサンボム'
     },
     special: {
-      id: 'energystand',
+      id: 'sp_energystand',
       name: 'エナジースタンド'
     },
-    icon: 'hissen'
+    icon: 'w_hissen'
   },
   {
     id: 'moprin',
     type: 'slosher',
     name: 'モップリン',
     sub: {
-      id: 'kyubanbomb',
+      id: 'sub_kyubanbomb',
       name: 'キューバンボム'
     },
     special: {
-      id: 'sameride',
+      id: 'sp_sameride',
       name: 'サメライド'
     },
-    icon: 'moprin'
+    icon: 'w_moprin'
   },
   {
     id: 'screwslosher',
     type: 'slosher',
     name: 'スクリュースロッシャー',
     sub: {
-      id: 'tansanbomb',
+      id: 'sub_tansanbomb',
       name: 'タンサンボム'
     },
     special: {
-      id: 'nicedama',
+      id: 'sp_nicedama',
       name: 'ナイスダマ'
     },
-    icon: 'screwslosher'
+    icon: 'w_screwslosher'
   },
   {
     id: 'screwslosher_neo',
     type: 'slosher',
     name: 'スクリュースロッシャーネオ',
     sub: {
-      id: 'pointsensor',
+      id: 'sub_pointsensor',
       name: 'ポイントセンサー'
     },
     special: {
-      id: 'ultrashot',
+      id: 'sp_ultrashot',
       name: 'ウルトラショット'
     },
-    icon: 'screwslosher'
+    icon: 'w_screwslosher'
   },
   {
     id: 'barrelspinner',
     type: 'spinner',
     name: 'バレルスピナー',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'hopsonar',
+      id: 'sp_hopsonar',
       name: 'ホップソナー'
     },
-    icon: 'barrelspinner'
+    icon: 'w_barrelspinner'
   },
   {
     id: 'barrelspinner_deco',
     type: 'spinner',
     name: 'バレルスピナーデコ',
     sub: {
-      id: 'pointsensor',
+      id: 'sub_pointsensor',
       name: 'ポイントセンサー'
     },
     special: {
-      id: 'teioika',
+      id: 'sp_teioika',
       name: 'テイオウイカ'
     },
-    icon: 'barrelspinner'
+    icon: 'w_barrelspinner'
   },
   {
     id: 'examiner',
     type: 'spinner',
     name: 'イグザミナー',
     sub: {
-      id: 'curlingbomb',
+      id: 'sub_curlingbomb',
       name: 'カーリングボム'
     },
     special: {
-      id: 'energystand',
+      id: 'sp_energystand',
       name: 'エナジースタンド'
     },
-    icon: 'examiner'
+    icon: 'w_examiner'
   },
   {
     id: 'hydra',
     type: 'spinner',
     name: 'ハイドラント',
     sub: {
-      id: 'robotbomb',
+      id: 'sub_robotbomb',
       name: 'ロボットボム'
     },
     special: {
-      id: 'nicedama',
+      id: 'sp_nicedama',
       name: 'ナイスダマ'
     },
-    icon: 'hydra'
+    icon: 'w_hydra'
   },
   {
     id: 'kugelschreiber',
     type: 'spinner',
     name: 'クーゲルシュライバー',
     sub: {
-      id: 'tansanbomb',
+      id: 'sub_tansanbomb',
       name: 'タンサンボム'
     },
     special: {
-      id: 'jetpack',
+      id: 'sp_jetpack',
       name: 'ジェットパック'
     },
-    icon: 'kugelschreiber'
+    icon: 'w_kugelschreiber'
   },
   {
     id: 'kugelschreiber_hue',
     type: 'spinner',
     name: 'クーゲルシュライバー・ヒュー',
     sub: {
-      id: 'trap',
+      id: 'sub_trap',
       name: 'トラップ'
     },
     special: {
-      id: 'kyuinki',
+      id: 'sp_kyuinki',
       name: 'キューインキ'
     },
-    icon: 'kugelschreiber_hue'
+    icon: 'w_kugelschreiber_hue'
   },
   {
     id: 'nautilus47',
     type: 'spinner',
     name: 'ノーチラス47',
     sub: {
-      id: 'pointsensor',
+      id: 'sub_pointsensor',
       name: 'ポイントセンサー'
     },
     special: {
-      id: 'amefurashi',
+      id: 'sp_amefurashi',
       name: 'アメフラシ'
     },
-    icon: 'nautilus47'
+    icon: 'w_nautilus47'
   },
   {
     id: 'splatspinner',
     type: 'spinner',
     name: 'スプラスピナー',
     sub: {
-      id: 'quickbomb',
+      id: 'sub_quickbomb',
       name: 'クイックボム'
     },
     special: {
-      id: 'ultrahanko',
+      id: 'sp_ultrahanko',
       name: 'ウルトラハンコ'
     },
-    icon: 'splatspinner'
+    icon: 'w_splatspinner'
   },
   {
     id: 'splatspinner_collabo',
     type: 'spinner',
     name: 'スプラスピナーコラボ',
     sub: {
-      id: 'poisonmist',
+      id: 'sub_poisonmist',
       name: 'ポイズンミスト'
     },
     special: {
-      id: 'greatbarrier',
+      id: 'sp_greatbarrier',
       name: 'グレートバリア'
     },
-    icon: 'splatspinner'
+    icon: 'w_splatspinner'
   },
   {
     id: 'lact450',
     type: 'stringer',
     name: 'LACT-450',
     sub: {
-      id: 'curlingbomb',
+      id: 'sub_curlingbomb',
       name: 'カーリングボム'
     },
     special: {
-      id: 'missile',
+      id: 'sp_missile',
       name: 'マルチミサイル'
     },
-    icon: 'lact450'
+    icon: 'w_lact450'
   },
   {
     id: 'tristringer',
     type: 'stringer',
     name: 'トライストリンガー',
     sub: {
-      id: 'poisonmist',
+      id: 'sub_poisonmist',
       name: 'ポイズンミスト'
     },
     special: {
-      id: 'megaphone51',
+      id: 'sp_megaphone51',
       name: 'メガホンレーザー5.1ch'
     },
-    icon: 'tristringer'
+    icon: 'w_tristringer'
   },
   {
     id: 'tristringer_collabo',
     type: 'stringer',
     name: 'トライストリンガーコラボ',
     sub: {
-      id: 'sprinkler',
+      id: 'sub_sprinkler',
       name: 'スプリンクラー'
     },
     special: {
-      id: 'decoy',
+      id: 'sp_decoy',
       name: 'デコイチラシ'
     },
-    icon: 'tristringer'
+    icon: 'w_tristringer'
   },
   {
     id: 'drivewiper',
     type: 'wiper',
     name: 'ドライブワイパー',
     sub: {
-      id: 'torpedo',
+      id: 'sub_torpedo',
       name: 'トーピード'
     },
     special: {
-      id: 'ultrahanko',
+      id: 'sp_ultrahanko',
       name: 'ウルトラハンコ'
     },
-    icon: 'drivewiper'
+    icon: 'w_drivewiper'
   },
   {
     id: 'drivewiper_deco',
     type: 'wiper',
     name: 'ドライブワイパーデコ',
     sub: {
-      id: 'jumpbeacon',
+      id: 'sub_jumpbeacon',
       name: 'ジャンプビーコン'
     },
     special: {
-      id: 'missile',
+      id: 'sp_missile',
       name: 'マルチミサイル'
     },
-    icon: 'drivewiper'
+    icon: 'w_drivewiper'
   },
   {
     id: 'jimuwiper',
     type: 'wiper',
     name: 'ジムワイパー',
     sub: {
-      id: 'quickbomb',
+      id: 'sub_quickbomb',
       name: 'クイックボム'
     },
     special: {
-      id: 'shokuwander',
+      id: 'sp_shokuwander',
       name: 'ショクワンダー'
     },
-    icon: 'jimuwiper'
+    icon: 'w_jimuwiper'
   }
 ];
